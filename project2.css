@@ -1,0 +1,104 @@
+.sign-up {
+  font-family: "Verdana";
+  background-color: CornflowerBlue;
+  color: white;
+  word-spacing: 30px;
+  font-style: italic;
+  padding-left: 50px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 25% 40% 30%
+}
+
+#details {
+  margin-top: 50px;
+  border-style: solid;
+  border-color: orange;
+  border-width: 3px;
+  line-height: 40px;
+  grid-column-start: 3;
+  grid-column-end:3;
+  /* line-height: 100px; */
+padding-left: 30px;
+font-size: 20px;
+
+}
+
+.photo {
+  grid-column-start:2;
+  grid-column-end:2;
+  padding-left: 40px;
+
+}
+
+a:visited {
+    color: white;
+}
+
+.groups {
+  padding-left: 850px;
+  text-decoration: underline;
+  font-size: 20px;
+  padding-bottom: 15px;
+  word-spacing: 15px;
+}
+
+
+.groups:hover {
+  text-decoration: none;
+}
+
+#options {
+  padding-left: 80px;
+  padding-top: 30px;
+  font-style: bold;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#options:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+button {
+margin-top: 50px;
+height: 80px;
+width: 230px;
+font-size: 22px;
+font-family: "Verdana"
+}
+
+button:hover {
+  background-color: orange;
+}
+
+.a {
+  margin-top: 50px;
+  height: 80px;
+  width: 230px;
+  font-size: 22px;
+  font-family: "Verdana"
+}
+
+.b {
+  margin-top: 50px;
+  height: 70px;
+  width: 130px;
+  font-size: 15px;
+  font-family: "Verdana"
+
+}
+
+.c {
+  margin-top: 50px;
+height: 80px;
+width: 230px;
+font-size: 22px;
+font-family: "Verdana"
+
+
+}
